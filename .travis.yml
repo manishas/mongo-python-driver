@@ -15,4 +15,8 @@ script: python setup.py test
 
 notifications:
   email:
-    - manisha@shippable.com
+    recipients:
+      - manisha@shippable.com
+    on_success: always
+    on_failure: always
+    
